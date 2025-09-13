@@ -26,7 +26,7 @@ interface ProjectsProps {
 }
 
 // Technology mapping to icons
-const techIcons: { [key: string]: JSX.Element } = {
+const techIcons: { [key: string]: React.ReactElement } = {
   React: <SiReact className="text-blue-400" />,
   'Next.js': <SiNextdotjs className="text-white" />,
   'React Native': <FaMobile className="text-blue-400" />,
@@ -68,8 +68,7 @@ interface Project {
   demoUrl: string | null;
   technologies: string[];
   status: string;
-  icon: JSX.Element;
-}
+icon: React.ReactElement;}
 
 interface ProjectItemProps {
   project: Project;
