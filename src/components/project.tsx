@@ -196,7 +196,7 @@ const Projects = ({ darkMode }: ProjectsProps) => {
       id: 1,
       title: "VBC-FTV - TV Programming Website",
       description: "A comprehensive TV programming website with scheduling, content management, and user interaction features. Built with React, Node.js, Express, and MongoDB.",
-      githubUrl: "https://github.com/Maydena/VBC-FTV",
+      githubUrl: "*",
       demoUrl: null,
       technologies: ["React", "Node.js", "Express", "MongoDB", "CSS"],
       status: "Completed",
