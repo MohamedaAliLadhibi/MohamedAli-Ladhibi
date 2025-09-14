@@ -54,6 +54,7 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
             href="#home" 
             className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent transition-all duration-300 hover:from-indigo-300 hover:to-purple-300"
           >
+            
             Mohamed Ali
           </a>
 
