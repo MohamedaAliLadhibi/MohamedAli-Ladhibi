@@ -77,7 +77,7 @@ const Me = ({ darkMode }: MeProps) => {
       </div>
 
       {/* Scroll Indicator */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.5 }}
@@ -92,7 +92,7 @@ const Me = ({ darkMode }: MeProps) => {
             }`}></div>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };
